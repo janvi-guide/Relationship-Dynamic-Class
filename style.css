@@ -42,6 +42,90 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+/* लेटेस्ट पोस्ट हेडिंग के लिए स्टाइल */
+        .latest-posts {
+            background-color: #000; /* काला बैकग्राउंड */
+            color: white; /* सफेद टेक्स्ट */
+            padding: 15px;
+            text-align: center;
+            font-size: 24px; /* हेडिंग का फॉन्ट साइज */
+            margin: 20px 0;
+        }
+
+        /* पोस्ट ग्रिड के लिए स्टाइल */
+        .post-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 कॉलम */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .post {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .post img {
+            width: 100%; /* इमेज को पूरी चौड़ाई पर सेट किया */
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .post h2 {
+            margin: 10px 0;
+            background-color: #333;
+            font-size: 13px; /* टाइटल का फॉन्ट साइज बढ़ाया गया */
+            color: white; /* टाइटल का रंग काला किया गया */
+        }
+
+        .post p.category {
+            display: inline-block;
+            padding: 5px 10px; /* केटेगरी के लिए छोटा पैडिंग */
+            background-color: #333; /* कैटेगरी का बैकग्राउंड रंग */
+            color: white;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-size: 14px; /* केटेगरी का फॉन्ट साइज छोटा किया गया */
+        }
+
+        .post h2 a, .post p.category a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .post h2 a:hover, .post p.category a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        .post:hover {
+            transform: scale(1.05);
+        }
+
+        /* पेजिनेशन के लिए स्टाइल */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .pagination a {
+            padding: 10px 15px;
+            margin: 0 5px;
+            border: 1px solid #ddd;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .pagination a:hover {
+            background-color: blue;
+            color: white;
+            }
+            
 footer p {
     margin: 0;
 }
