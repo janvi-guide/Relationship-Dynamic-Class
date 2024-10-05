@@ -20,6 +20,36 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+/* About Section Styles */
+.about {
+    background-color: #f4f4f4; /* हल्का ग्रे बैकग्राउंड */
+    padding: 20px; /* padding सेट करें */
+    border-radius: 8px; /* कोनों को गोल करें */
+    margin: 20px 0; /* ऊपर और नीचे का मार्जिन */
+}
+
+.about-title {
+    font-size: 24px; /* शीर्षक का फॉन्ट साइज */
+    color: #333; /* शीर्षक का रंग */
+}
+
+.about-mission, .about-values, .about-offer {
+    margin-top: 15px; /* प्रत्येक सेक्शन के शीर्ष पर स्पेस */
+}
+
+.about-mission-description, .about-offer-description {
+    font-size: 16px; /* सामान्य टेक्स्ट का फॉन्ट साइज */
+    color: #555; /* सामान्य टेक्स्ट का रंग */
+}
+
+.about-values-list, .about-offer-list {
+    list-style-type: disc; /* डिस्क स्टाइल */
+    padding-left: 20px; /* लिस्ट के बाईं तरफ स्पेस */
+}
+
+.about-value-item, .about-offer-item {
+    margin: 5px 0; /* प्रत्येक लिस्ट आइटम के बीच स्पेस */
+}
 
 /* फ़ूटर के लिए स्टाइल */
 footer {
